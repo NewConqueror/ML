@@ -17,7 +17,7 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 # Veriyi yükle ve keşifsel veri analizi
-df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/diabetes_pima_indians.csv")
+df = pd.read_csv("diabetes_pima_indians.csv")
 
 
 print(df.columns)
